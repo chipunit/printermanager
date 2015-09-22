@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6F3A70E6-9EF4-4293-9634-E3BF869D8A30</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Printer Manager</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B75CA0BCBCE5FF1D1F68B15ED112D19E5FB4DD8B</key>
+		<string>https://github.com/chipunit/printermanager.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Printer Manager.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B75CA0BCBCE5FF1D1F68B15ED112D19E5FB4DD8B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chipunit/printermanager.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B75CA0BCBCE5FF1D1F68B15ED112D19E5FB4DD8B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B75CA0BCBCE5FF1D1F68B15ED112D19E5FB4DD8B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>printermanager</string>
+		</dict>
+	</array>
+</dict>
+</plist>
