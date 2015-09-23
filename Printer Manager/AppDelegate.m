@@ -13,7 +13,9 @@
 @property (weak) IBOutlet NSWindow *window;
 @end
 
-@implementation AppDelegate
+@implementation AppDelegate {
+    pthread_t thread;
+}
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     NSBundle *bundle = [NSBundle mainBundle];
@@ -25,6 +27,8 @@
     [statusItem setAlternateImage:statusIcon];
     [statusItem setMenu:statusMenu];
     
+    int threadId;
+    int ret = pthread_create( &threadId , NULL, start_server, NULL);
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
@@ -36,7 +40,7 @@
 }
 
 - (IBAction) onQuit:(id)sender {
-    
+    [NSApp terminate:self];
 }
 
 @end

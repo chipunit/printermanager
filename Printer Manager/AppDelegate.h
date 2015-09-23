@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 Chip Unit. All rights reserved.
 //
 
+#import "Server.h"
+#import <pthread.h>
 #import <Cocoa/Cocoa.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
